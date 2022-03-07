@@ -208,7 +208,7 @@ select {
   }
 }
 
-.lds-ring div {
+.lds-ring span {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: block;
@@ -223,17 +223,17 @@ select {
   border-color: #cee3e9 transparent transparent transparent;
 }
 
-.lds-ring div:nth-child(1) {
+.lds-ring span:nth-child(1) {
   -webkit-animation-delay: -0.45s;
           animation-delay: -0.45s;
 }
 
-.lds-ring div:nth-child(2) {
+.lds-ring span:nth-child(2) {
   -webkit-animation-delay: -0.3s;
           animation-delay: -0.3s;
 }
 
-.lds-ring div:nth-child(3) {
+.lds-ring span:nth-child(3) {
   -webkit-animation-delay: -0.15s;
           animation-delay: -0.15s;
 }
@@ -269,7 +269,7 @@ select {
   border-radius: 0.5rem;
   padding: 1.5rem;
   max-width: 20rem;
-  min-height: 20rem;
+  min-height: 22rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
