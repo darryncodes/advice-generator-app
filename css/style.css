@@ -26,6 +26,7 @@ body {
   font-family: "Manrope", sans-serif;
   font-size: 1rem;
   font-weight: 800;
+  line-height: 1.2;
   color: #cee3e9;
   background-color: #1f2632;
   min-height: 100vh;
@@ -93,7 +94,6 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
 }
 
 /* A elements that don't have a class get default styles */
@@ -269,7 +269,7 @@ select {
   border-radius: 0.5rem;
   padding: 1.5rem;
   max-width: 20rem;
-  min-height: 22rem;
+  min-height: 20rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
