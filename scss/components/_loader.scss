@@ -3,13 +3,8 @@
 .lds-ring {
   display: inline-block;
   position: absolute;
-  left: -15px;
-  bottom: 70px;
-
-  @media only screen and (min-width: $bp-tablet) {
-    left: -16px;
-    bottom: 80px;
-  }
+  left: -16px;
+  bottom: 80px;
 
   @media only screen and (min-width: $bp-desktop) {
     left: -17px;
