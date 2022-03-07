@@ -1,0 +1,40 @@
+@use '../base/base' as *;
+
+.btn {
+  background-color: $neon-green;
+  background-image: url(../../img/icon-dice.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @media only screen and (min-width: $bp-tablet) {
+    bottom: -30px;
+  }
+
+  @media only screen and (min-width: $bp-desktop) {
+    bottom: -35px;
+  }
+
+  &:hover {
+    box-shadow: 0 0 20px 3px $neon-green;
+  }
+  &:focus {
+    outline: 3px solid $neon-green;
+    border-radius: 50%;
+    outline-offset: 1px;
+  }
+
+  &[disabled] {
+    opacity: 0.5;
+  }
+}
