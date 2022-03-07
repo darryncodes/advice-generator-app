@@ -269,7 +269,7 @@ select {
   border-radius: 0.5rem;
   padding: 1.5rem;
   max-width: 20rem;
-  min-height: 22rem;
+  min-height: 20rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
