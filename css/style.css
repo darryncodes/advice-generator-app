@@ -192,14 +192,8 @@ select {
 .lds-ring {
   display: inline-block;
   position: absolute;
-  left: -15px;
-  bottom: 70px;
-}
-@media only screen and (min-width: 37.5em) {
-  .lds-ring {
-    left: -16px;
-    bottom: 80px;
-  }
+  left: -16px;
+  bottom: 80px;
 }
 @media only screen and (min-width: 56.25em) {
   .lds-ring {
