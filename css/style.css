@@ -193,7 +193,13 @@ select {
   display: inline-block;
   position: absolute;
   left: -16px;
-  bottom: 80px;
+  bottom: 71px;
+}
+@media only screen and (min-width: 37.5em) {
+  .lds-ring {
+    left: -17px;
+    bottom: 80px;
+  }
 }
 @media only screen and (min-width: 56.25em) {
   .lds-ring {

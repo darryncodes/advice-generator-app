@@ -4,7 +4,12 @@
   display: inline-block;
   position: absolute;
   left: -16px;
-  bottom: 80px;
+  bottom: 71px;
+
+  @media only screen and (min-width: $bp-tablet) {
+    left: -17px;
+    bottom: 80px;
+  }
 
   @media only screen and (min-width: $bp-desktop) {
     left: -17px;
