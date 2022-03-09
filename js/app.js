@@ -4,7 +4,9 @@ const btn = document.querySelector('.btn');
 const loader = document.querySelector('.loader');
 
 async function fetchAdvice() {
-  const response = await fetch('https://api.adviceslip.com/advice');
+  const response = await fetch('https://api.adviceslip.com/advice', {
+    cache: 'no-cache',
+  });
   const advice = response.json();
 
   return advice;
